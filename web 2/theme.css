@@ -1,19 +1,23 @@
 body {
 	background-image: url(image.jpg);
 	font-family: Courier New;
+	font-weight: 1000;
 }
 
 div {
 	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: rgba(173,181,189, 0.4 ) 
+	background-color: rgba(173,181,189, 0.6 );
+	border: 8px solid black;
+	margin-bottom: 50;
+	box-shadow: 15px 15px 20px black;
 }
 
 h1 {
 	
     text-align: center;
-	background-color: rgba(173,181,189, 0.4 )
+	background-color: rgba(173,181,189, 0.6 )
 }
 
 h3 {
@@ -25,7 +29,8 @@ p {
 }
 
 img {
-	float: right;
-	margin-left: 0px
+	float: bottom;
+	margin-left: 190px;
+	border: 8px solid black;
 }
 
